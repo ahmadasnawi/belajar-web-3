@@ -52,3 +52,191 @@ nav .right button{
     border: none;
     font-size: 25px;
 }
+main{
+    display: flex;
+    width: 100%;
+}
+main .kiri{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: ;
+    width: 50%;
+    height: 100%;
+}
+main .kiri .title{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+main .kiri .title .satu{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+main .kiri .title .satu div{
+    width: 120px;
+    height: 50px;
+    border-radius: 3vh;
+    background-color: lightpink;
+}
+main .kiri .title .tiga{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+main .kiri .title .tiga button{
+    padding: 22px 35px;
+    border-radius: 4vh;
+    border: 2px solid;
+    background-color: white;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+}
+main .kiri .tombol{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+main .kiri .tombol button{
+    padding: 20px 40px;
+    border: none;
+    color: white;
+    background-color: #9fcafb;
+    border-radius: 3vh;
+    gap: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+main .kiri .tombol a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+main .kiri .text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 150px;
+}
+main .kiri .icon{
+    display: flex;
+    gap: 70px;
+    margin-top: 30px;
+}
+main .kiri .text .icon img{
+    width: 120px;
+}
+main .kanan{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 20px;
+}
+main .kanan .top .ungu{
+    width: 100%;
+    height: 45vh;
+    border-radius: 20px;
+    background-image: url(./img/ungu.jpg);
+    background-size: cover;
+    position: relative;
+}
+main .kanan .top .ungu .deskripsi{
+    padding: 25px;
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+main .kanan .top .ungu .deskripsi .atas p{
+    font-size: 45px;
+}
+main .kanan .top .ungu .deskripsi .bawah{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .kanan .top .ungu .deskripsi .bawah p{
+    font-size: 23px;
+}
+main .kanan .top .ungu .deskripsi .bawah button{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: white;
+    font-size: 25px;
+    border: none;
+}
+main .kanan .bottom{
+    display: flex;
+    width: 100%;
+    margin-top: 12px;
+    gap: 12px;
+}
+main .kanan .bottom .line{
+    height: 43vh;
+    border-radius: 20px;
+    width: 50%;
+    position: relative;
+}
+main .kanan .bottom .left{
+    background-image: url(./img/biru.jpg);
+    background-size: cover;
+}
+main .kanan .bottom .line .isi{
+    padding: 25px;
+    top: 0;
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main .kanan .bottom .line .isi .tombol-atas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+main .kanan .bottom .right{
+    background-image: url(./img/pink.jpg);
+    background-size: cover;
+}
+main .kanan .bottom .line .isi .tombol-atas button{
+    padding: 10px 13px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+main .kanan .bottom .line .isi .tombol-atas i{
+    border-radius: 50%;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+main .kanan .bottom .line .isi .tombol-atas .sirkel{
+    display: flex;
+    align-items: center;
+}
+main .kanan .bottom .line .isi .tombol-atas .sirkel div{
+    width: 30px;
+    aspect-ratio: 1/1;
+    border: 1.5px solid grey;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: -10px;
+}
+
